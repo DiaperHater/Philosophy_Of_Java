@@ -9,9 +9,9 @@ import java.io.InputStreamReader;
 import java.net.*;
 import java.util.regex.Pattern;
 
-class Get {
+public class Get {
 
-    static String get (String address) throws IOException{
+    public static String get (String address) throws IOException{
 
         URL url = new URL(address);
 
