@@ -16,7 +16,7 @@ class GetTest {
 
     //get(String address)
     @Test
-    void ifBadAddressThenThrowsEception(){
+    void ifBadAddressThenThrowsException(){
         assertThrows(MalformedURLException.class, ()->{Get.get("baduri");});
         assertThrows(MalformedURLException.class, ()->{Get.get("google.com");});
         assertThrows(MalformedURLException.class, ()->{Get.get("bad://google.com");});

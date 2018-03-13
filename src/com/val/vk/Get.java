@@ -36,15 +36,4 @@ public class Get {
         return sb.toString();
 
     }
-
-    private static String fixProtocolSuffixInUrl(String address) {
-
-        address = address.replaceFirst("http://", "https://");
-
-        if(Pattern.matches("^(?!https://).*$", address)){
-            address = "https://" + address;
-        }
-
-        return address;
-    }
 }
