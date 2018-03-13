@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca6b3798-e802-43df-ae8b-e64f101a59d6" name="Default" comment="" />
+    <list default="true" id="ca6b3798-e802-43df-ae8b-e64f101a59d6" name="Default" comment="TickTakToe done TDD">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Philosophy_Of_Java/com/val/tdd/TickTackToe.class" afterPath="$PROJECT_DIR$/out/production/Philosophy_Of_Java/com/val/tdd/TickTackToe.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Philosophy_Of_Java/com/val/tdd/TickTackToeSpec.class" afterPath="$PROJECT_DIR$/out/test/Philosophy_Of_Java/com/val/tdd/TickTackToeSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/val/tdd/TickTackToe.java" afterPath="$PROJECT_DIR$/src/com/val/tdd/TickTackToe.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/val/tdd/TickTackToeSpec.java" afterPath="$PROJECT_DIR$/test/com/val/tdd/TickTackToeSpec.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,46 +18,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/val/vk/Main.java">
+      <file leaf-file-name="TickTackToeSpec.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/val/tdd/TickTackToeSpec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="370">
+              <caret line="104" column="44" lean-forward="false" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#showMessageDialog#0;class#Main#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/val/vk/GetTest.java">
+      <file leaf-file-name="TickTackToe.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/val/tdd/TickTackToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TickTackToeSpec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/val/tdd/TickTackToeSpec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/val/vk/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="130">
+              <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#checkAxis#0;class#TickTackToe#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -70,7 +55,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>private</find>
+      <find>(lastPlayer * SIZE)</find>
+      <find>vertcal</find>
+      <find>vertical</find>
+      <find>diagonal2</find>
     </findStrings>
+    <replaceStrings>
+      <replace>v</replace>
+      <replace>bottomTop</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,7 +106,6 @@
         <option value="$PROJECT_DIR$/test/testdemo/FooTest.java" />
         <option value="$PROJECT_DIR$/src/com/val/tdd/Foo.java" />
         <option value="$PROJECT_DIR$/test/com/val/tdd/FooTest.java" />
-        <option value="$PROJECT_DIR$/src/com/val/tdd/TickTackToe.java" />
         <option value="$PROJECT_DIR$/src/com/val/vk/exceptions/HostUnreachableException.java" />
         <option value="$PROJECT_DIR$/src/com/val/vk/exceptions/BadProtocolEception.java" />
         <option value="$PROJECT_DIR$/src/com/val/vk/exceptions/ProtocolIsNotHTTPSEception.java" />
@@ -134,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/com/val/vk/Main.java" />
         <option value="$PROJECT_DIR$/src/com/val/vk/Login.java" />
         <option value="$PROJECT_DIR$/test/com/val/tdd/TickTackToeSpec.java" />
+        <option value="$PROJECT_DIR$/src/com/val/tdd/TickTackToe.java" />
       </list>
     </option>
   </component>
@@ -223,10 +216,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,6 +235,27 @@
             <path>
               <item name="Philosophy_Of_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Philosophy_Of_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Philosophy_Of_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Philosophy_Of_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="val" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Philosophy_Of_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Philosophy_Of_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="val" type="462c0819:PsiDirectoryNode" />
+              <item name="tdd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Philosophy_Of_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Philosophy_Of_Java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,6 +263,13 @@
               <item name="Philosophy_Of_Java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="val" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Philosophy_Of_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Philosophy_Of_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="val" type="462c0819:PsiDirectoryNode" />
+              <item name="tdd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Philosophy_Of_Java" type="b2602c69:ProjectViewProjectNode" />
@@ -297,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TickTackToeSpec">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -336,6 +357,31 @@
       <module name="Philosophy_Of_Java" />
       <envs />
     </configuration>
+    <configuration name="TickTackToeSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.val.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Philosophy_Of_Java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.val.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.val.tdd.TickTackToeSpec" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="VkMethodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -350,31 +396,6 @@
       <option name="MAIN_CLASS_NAME" value="com.val.vk.VkMethodsTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="VkMethodsTest.sendeMessage_OkThenMessageWellDelivered" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.val.vk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Philosophy_Of_Java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.val.vk" />
-      <option name="MAIN_CLASS_NAME" value="com.val.vk.VkMethodsTest" />
-      <option name="METHOD_NAME" value="sendeMessage_OkThenMessageWellDelivered" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -496,16 +517,16 @@
       <item index="0" class="java.lang.String" itemvalue="JUnit.com.val.vk in Philosophy_Of_Java" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.VkMethodsTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.VkMethodsTest.sendeMessage_OkThenMessageWellDelivered" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TickTackToeSpec" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.com.val.vk in Philosophy_Of_Java" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.VkMethodsTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.VkMethodsTest.sendeMessage_OkThenMessageWellDelivered" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TickTackToeSpec" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.com.val.vk in Philosophy_Of_Java" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.VkMethodsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -523,26 +544,26 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VkMethodsTest - 2018.02.26 at 02h 11m 51s.xml">
-      <configuration name="VkMethodsTest" configurationId="JUnit" />
+    <history-entry file="TickTackToeSpec - 2018.03.12 at 09h 39m 25s.xml">
+      <configuration name="TickTackToeSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VkMethodsTest - 2018.02.26 at 02h 12m 48s.xml">
-      <configuration name="VkMethodsTest" configurationId="JUnit" />
+    <history-entry file="TickTackToeSpec - 2018.03.13 at 10h 41m 51s.xml">
+      <configuration name="TickTackToeSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VkMethodsTest - 2018.02.26 at 02h 13m 05s.xml">
-      <configuration name="VkMethodsTest" configurationId="JUnit" />
+    <history-entry file="TickTackToeSpec - 2018.03.13 at 10h 42m 27s.xml">
+      <configuration name="TickTackToeSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VkMethodsTest - 2018.02.26 at 02h 13m 17s.xml">
-      <configuration name="VkMethodsTest" configurationId="JUnit" />
+    <history-entry file="TickTackToeSpec - 2018.03.13 at 10h 46m 10s.xml">
+      <configuration name="TickTackToeSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VkMethodsTest - 2018.02.26 at 02h 13m 31s.xml">
-      <configuration name="VkMethodsTest" configurationId="JUnit" />
+    <history-entry file="TickTackToeSpec - 2018.03.13 at 10h 47m 00s.xml">
+      <configuration name="TickTackToeSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VkMethodsTest - 2018.02.26 at 02h 15m 16s.xml">
-      <configuration name="VkMethodsTest" configurationId="JUnit" />
+    <history-entry file="TickTackToeSpec - 2018.03.13 at 10h 50m 24s.xml">
+      <configuration name="TickTackToeSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VkMethodsTest - 2018.02.26 at 02h 15m 36s.xml">
-      <configuration name="VkMethodsTest" configurationId="JUnit" />
+    <history-entry file="TickTackToeSpec - 2018.03.13 at 11h 01m 41s.xml">
+      <configuration name="TickTackToeSpec" configurationId="JUnit" />
     </history-entry>
     <history-entry file="VkMethodsTest_sendeMessage_OkThenMessageWellDelivered - 2018.02.26 at 02h 12m 08s.xml">
       <configuration name="VkMethodsTest.sendeMessage_OkThenMessageWellDelivered" configurationId="JUnit" />
@@ -560,13 +581,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26006192" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26006192" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -589,6 +610,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TickTakToe done TDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="TickTakToe done TDD" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -597,12 +622,6 @@
           <line>31</line>
           <properties />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/val/tdd/TickTackToe.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -709,16 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="417" column="0" lean-forward="false" selection-start-line="417" selection-start-column="0" selection-end-line="417" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/val/tdd/TickTackToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="method#checkAxis#0;class#TickTackToe#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,9 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,15 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/val/tdd/TickTackToeSpec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,9 +879,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/val/tdd/TickTackToeSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="104" column="44" lean-forward="false" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#showMessageDialog#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/val/tdd/TickTackToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+          <folding>
+            <element signature="method#checkAxis#0;class#TickTackToe#0" expanded="false" />
           </folding>
         </state>
       </provider>

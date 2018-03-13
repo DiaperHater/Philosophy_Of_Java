@@ -68,6 +68,43 @@ public class TickTackToeSpec {
         String actual = tickTackToe.play(3,2); //player O
 
         assertEquals("Player O is Winner!", actual);
+    }
+
+    @Test
+    void whenPlayAndTopBottomDiagonalLineThenWinner(){
+        tickTackToe.play(1,1); //player X
+        tickTackToe.play(1,2); //player O
+        tickTackToe.play(2,2); //player X
+        tickTackToe.play(1,3); //player O
+        String actual  = tickTackToe.play(3,3); //player X
+
+        assertEquals("Player X is Winner!", actual);
+    }
+
+    @Test
+    void whenPlayAndBottomTopDiagonalLineThenWinner(){
+        tickTackToe.play(1,3); //player X
+        tickTackToe.play(1,2); //player O
+        tickTackToe.play(2,2); //player X
+        tickTackToe.play(1,1); //player O
+        String actual  = tickTackToe.play(3,1); //player X
+
+        assertEquals("Player X is Winner!", actual);
+    }
+
+    @Test
+    void whenAllBoxesAreFilledThenDraw(){
+        tickTackToe.play(1,1);
+        tickTackToe.play(1,2);
+        tickTackToe.play(1,3);
+        tickTackToe.play(2,1);
+        tickTackToe.play(2,3);
+        tickTackToe.play(2,2);
+        tickTackToe.play(3,1);
+        tickTackToe.play(3,3);
+        String actual = tickTackToe.play(3,2);
+
+        assertEquals("Draw!", actual);
 
     }
 }
